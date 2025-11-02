@@ -1,0 +1,10 @@
+body {font-family: Arial; background:#f6f7fb; padding:20px;}
+.container {max-width:900px; margin:0 auto;}
+h1 {text-align:center; color:#0b5ed7;}
+.card {background:#fff; padding:16px; margin-bottom:18px; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.06);}
+label {display:block; margin-top:10px; font-weight:600;}
+input {width:100%; padding:8px; margin-top:6px; border-radius:6px; border:1px solid #ddd;}
+button {margin-top:12px; padding:10px 14px; background:#0b5ed7; color:#fff; border:none; border-radius:6px; cursor:pointer;}
+.result {margin-top:12px; font-weight:700;}
+.result table {width:100%; border-collapse:collapse;}
+.result th, .result td {border:1px solid #ccc; padding:8px; text-align:center;}

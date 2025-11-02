@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Salary Predictor & Career Path</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Salary Prediction & Career Path Demo</h1>
+
+    <div class="card">
+      <h2>Predict Salary & Category</h2>
+      <form id="predictForm">
+        <label>Job Title</label>
+        <input id="job_title" placeholder="e.g., Data Scientist">
+
+        <label>Experience Level</label>
+        <input id="experience_level" placeholder="EN / MI / SE / EX">
+
+        <label>Employment Type</label>
+        <input id="employment_type" placeholder="FT">
+
+        <label>Company Size</label>
+        <input id="company_size" placeholder="S / M / L">
+
+        <label>Company Location</label>
+        <input id="company_location" placeholder="e.g., United States">
+
+        <label>Employee Residence</label>
+        <input id="employee_residence" placeholder="e.g., India">
+
+        <label>Remote Ratio</label>
+        <input id="remote_ratio" type="number" placeholder="0 / 50 / 100">
+
+        <button type="submit">Predict</button>
+      </form>
+      <div id="predictResult" class="result"></div>
+    </div>
+
+    <div class="card">
+      <h2>Career Path Simulation</h2>
+      <form id="careerForm">
+        <label>Starting Salary (USD)</label>
+        <input id="current_salary" type="number" value="100000">
+
+        <label>Years</label>
+        <input id="years" type="number" value="5">
+
+        <label>Annual Growth (decimal)</label>
+        <input id="annual_growth" type="number" step="0.01" value="0.12">
+
+        <button type="submit">Simulate</button>
+      </form>
+      <div id="careerResult" class="result"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
